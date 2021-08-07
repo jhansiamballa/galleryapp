@@ -1,0 +1,29 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+
+  justify-content: center;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  max-width: 1140px;
+}
+.selected-image {
+  border-radius: 18px;
+}
+.heading {
+  color: #1e293b;
+}
+.paragraph {
+  color: #64748b;
+}
+.thumbnails-list-container {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0px;
+}
